@@ -11,6 +11,9 @@ import { AgendamentoComponent } from './componentes/agendamento/agendamento.comp
 import { AgendamentoServicoComponent } from './componentes/agendamento-servico/agendamento-servico.component';
 import { PagamentoComponent } from './componentes/pagamento/pagamento.component';
 import { LoginComponent } from './componentes/login/login.component';
+import { PaymentDetailsComponent } from 'src/app/componentes/payment-detail/payment-detail.component';
+import { PaymentDetailFormComponent } from './componentes/payment-detail/payment-detail-form/payment-detail-form.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,11 @@ import { LoginComponent } from './componentes/login/login.component';
     AgendamentoComponent,
     AgendamentoServicoComponent,
     PagamentoComponent,
-    LoginComponent
+    LoginComponent,
+    PaymentDetailsComponent,
+    PaymentDetailFormComponent
+
+
   ],
   imports: [
     BrowserModule,
